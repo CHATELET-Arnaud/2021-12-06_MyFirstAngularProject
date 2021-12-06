@@ -8,6 +8,10 @@ import { Component } from '@angular/core';
 export class AppComponent {
   isAuth = false;
   
+  deviceOne = 'Washing machine';
+  deviceTwo = 'Fridge';
+  deviceThree = 'Computer';
+  
   constructor() {
 	  setTimeout(
 		() => {
