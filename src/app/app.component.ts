@@ -15,4 +15,8 @@ export class AppComponent {
 		}, 4000
 		);
   }
+  
+  onSwitchOn() {
+	  console.log('We switch on all devices !');
+  }
 }

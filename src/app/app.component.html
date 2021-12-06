@@ -7,7 +7,9 @@
         <app-device></app-device>
         <app-device></app-device>
       </ul>
-	  <button class="btn btn-success" [disabled]="!isAuth">Switch on all devices</button>
+	  <button	class="btn btn-success"
+				[disabled]="!isAuth"
+				(click)="onSwitchOn()">Switch on all devices</button>
     </div>
   </div>
 </div>
